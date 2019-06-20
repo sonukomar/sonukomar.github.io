@@ -1,0 +1,109 @@
+.nav-bg-light {
+    /* background: #e3e7ea!important; */
+    background: white;
+    z-index: -1;
+}
+#brand {
+    height:4em;
+}
+
+.nav-item {
+    margin-left:2em;
+}
+
+.bg{
+    background-image: url('../img/bg1.png');
+    height: 500px;
+    background-position-y: 600px;
+    margin-top:-81px;
+}
+
+.sonu-logo{
+    height: 300px;
+    border-radius: 63%;
+    margin-top: 4em;
+    margin-left:1em;
+
+}
+
+
+#first,#second,#third,#fourth {
+    display: none;
+
+}
+.quote span {
+    display: block;
+    color: white;
+    font-size: -webkit-xxx-large;
+    font-family: none;
+    margin-top: 2em;
+    margin-left:-1px;
+}
+
+.education {
+    background: #71c1e9;
+}
+.school{
+    height:400px;
+    margin-top:4em;
+    /* background-image: url('../img/Graduation.png'); */
+    
+}
+
+.school img{
+    
+        height:300px;
+    
+}
+.circle-white{
+    height: 145px;
+    background: #48465d;
+    border-radius: 137px;
+    width: 146px;
+    margin-left: 82%;
+    margin-top: -4em;
+    z-index: 1121211
+}
+
+.circle-yellow{
+    height: 145px;
+    background:#f3be44;
+    border-radius: 137px;
+    width: 146px;
+    margin-left: 61%;
+    margin-top: -4em;
+}
+.job{
+    background: #f3be44;
+    margin-top:-81px;
+}
+.circle-green{
+    height: 145px;
+    background:white;
+    border-radius: 137px;
+    width: 146px;
+    margin-left: 20%;
+    margin-top: -4em;
+}
+.git{
+    background: white;
+    margin-top:-81px;
+}
+
+.circle-blue{
+    height: 145px;
+    background:#c2e4e6;
+    border-radius: 137px;
+    width: 146px;
+    margin-left: 45%;
+    margin-top: -4em;
+}
+.blog{
+    background: #c2e4e6;
+    margin-top:-81px;
+}
+
+
+.margin-top-2{
+    margin-top: 8em;
+}
