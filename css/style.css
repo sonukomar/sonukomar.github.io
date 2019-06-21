@@ -50,6 +50,10 @@
     
 }
 
+.school .text-danger a {
+    color:red;
+}
+
 .school img{
     
         height:300px;
@@ -75,7 +79,7 @@
 }
 .job{
     background: #f3be44;
-    margin-top:-81px;
+    margin-top:-128px;
 }
 .circle-green{
     height: 145px;
@@ -103,7 +107,144 @@
     margin-top:-81px;
 }
 
+.social {
+    background: #838788;
+    margin-top:-81px;
+}
+
+.circle-social{
+    height: 145px;
+    background:white;
+    border-radius: 137px;
+    width: 146px;
+    margin-left: 7%;
+    margin-top: -4em;
+}
+
 
 .margin-top-2{
-    margin-top: 8em;
+    margin-top: 11em;
+}
+
+.margin-top-8 {
+    margin-top:8em;
+}
+
+.exp{
+    margin-top:-49px;
+}
+
+.school a {
+    color:black;
+}
+
+.git_image {
+    width: 950px;
+    height: 362px;
+    margin-top: 2em;
+}
+.skill {
+    padding: 1em;
+    background: #fdfdfd;
+    border-radius: 3em;
+    box-shadow: 3px 4px 3px 2px #ff0801;
+    margin-top: 19px;
+}
+.skill.blue {
+    padding: 1em;
+    background: #fdfdfd;
+    border-radius: 3em;
+    box-shadow: 3px 4px 3px 2px blue;
+    margin-top: 19px;
+}
+
+.skill.yellow {
+    padding: 1em;
+    background: #fdfdfd;
+    border-radius: 3em;
+    box-shadow: 3px 4px 3px 2px #bdbd49;
+    margin-top: 19px;
+}
+
+.skill.green {
+    padding: 1em;
+    background: #fdfdfd;
+    border-radius: 3em;
+    box-shadow: 3px 4px 3px 2px green;
+    margin-top: 19px;
+}
+
+.skill.blue {
+    padding: 1em;
+    background: #fdfdfd;
+    border-radius: 3em;
+    box-shadow: 3px 4px 3px 2px blue;
+    margin-top: 19px;
+}
+
+.skill.blue {
+    padding: 1em;
+    background: #fdfdfd;
+    border-radius: 3em;
+    box-shadow: 3px 4px 3px 2px blue;
+    margin-top: 19px;
+}
+
+.skill_div {
+    display: inline;
+}
+.empty {
+    height:50px;
+}
+
+.facebook {
+    background-image: url(../img/social-media-icons.png);
+    background-position-x: -49px;
+    background-position-y: -48px;
+    height: 130px;
+    display: inline-block;
+    width: 170px;
+}
+
+.insta {
+    background-image: url(../img/social-media-icons.png);
+    background-position-x: -225px;
+    background-position-y: -48px;
+    height: 130px;
+    display: inline-block;
+    width: 170px;
+}
+
+
+.pinterest {
+    background-image: url(../img/social-media-icons.png);
+    background-position-x: -409px;
+    background-position-y: -48px;
+    height: 130px;
+    display: inline-block;
+    width: 170px;
+}
+
+.twitter {
+    background-image: url(../img/social-media-icons.png);
+    background-position-x: -409px;
+    background-position-y: -228px;
+    height: 130px;
+    display: inline-block;
+    width: 170px;
+}
+
+.download {
+    position: fixed;
+    top: 3px;
+    left: 88%;
+}
+.top {
+    position:fixed;
+    top:93%;
+    left:95%;
+}
+.btn-primary {
+    background-color: #483211;
+    border-color: transparent;
 }

@@ -56,6 +56,17 @@ $(function(){
 
 
 
+  
+
+    $('.download').click(function(e) {
+        e.preventDefault();  //stop the browser from following
+        window.location.href = '../Resumenew.pdf';
+    });
+
+    $('.top').click(function(e) {
+        e.preventDefault();  //stop the browser from following
+        window.scrollTo(0, 0);
+    });
     
        
     
