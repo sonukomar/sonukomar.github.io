@@ -259,3 +259,59 @@ background-image: radial-gradient(89% 152px at 61% -68px, rgba(115, 185, 198, 0.
     font-family: inherit;
     border-color: transparent;
 }
+
+@media screen  and (max-width: 680px){
+    body{
+        overflow-x: hidden;
+    }
+    .download {
+        position: fixed;
+        top: 0;
+        left: 38.5%!important;
+    }
+    .circle-white{
+        display: none;
+    }
+    
+    .circle-yellow{
+        display: none;
+    }
+    .job{
+        background: #f3be44;
+        margin-top:-128px;
+    }
+    .circle-green{
+        display: none;
+    }
+
+    .git_image {
+        width: 950px;
+        height: 362px;
+        margin-top: -13em;
+    }
+    
+    .circle-blue{
+        display: none;
+    }
+    .nav-bg-light {
+        background: white;
+        z-index: -1;
+        margin-bottom: 6em;
+    }
+    .quote{
+        display: none;
+    }
+    .bg{
+        background-position-y: 668px;
+    }
+    .school img {
+        height: 180px;
+    }
+    .margin-top-8 {
+        margin-top: -12em;
+    }
+    .margin-top-2 {
+        margin-top: -15em;
+    }
+    
+}
