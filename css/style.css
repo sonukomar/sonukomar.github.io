@@ -264,10 +264,13 @@ background-image: radial-gradient(89% 152px at 61% -68px, rgba(115, 185, 198, 0.
     body{
         overflow-x: hidden;
     }
+    .conatiner-fluid{
+        overflow-x: hidden;
+    }
     .download {
         position: fixed;
         top: 0;
-        left: 38.5%!important;
+        left: 12.5%!important;
     }
     .circle-white{
         display: none;
