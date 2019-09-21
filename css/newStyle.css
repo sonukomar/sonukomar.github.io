@@ -79,8 +79,8 @@ h3{
     /* font-family: 'EB Garamond', serif; */
 /* font-family: 'Bree Serif', serif; */
 /*font-family: 'Satisfy', cursive;
-font-family: 'Kaushan Script', cursive;/*
-font-family: 'Old Standard TT', serif; 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Old Standard TT', serif; */
 }
 h5{
     font-family: 'Vollkorn SC', serif;
@@ -89,4 +89,35 @@ font-family: 'Bree Serif', serif;
 font-family: 'Satisfy', cursive;
 font-family: 'Kaushan Script', cursive;
 font-family: 'Old Standard TT', serif;
+}
+
+@media screen  and (max-width: 680px){
+    .introImage img {
+        width: 100%;
+        border-radius: 90%;
+        margin-top: 1em;
+        margin-left: 43em;
+    }
+    .introText h2 {
+        font-size: 0rem;
+        font-family: 'Satisfy', cursive;
+        margin-top: 1em;
+    }
+    iframe {
+        width: 17em;
+    }
+    .schoolText div {
+        padding: 1.3em;
+        width: 92px;
+        border-radius: 30%;
+    }
+    h2,h3{
+        font-size: 1.2rem;
+    }
+    .schoolImg img{
+        width: 63%;
+    }
+    .schoolText{
+        padding: 0;
+    }
 }
