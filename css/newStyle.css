@@ -53,6 +53,7 @@ hr {
         padding: 0.4em;
         border-radius: 0.2em;
         box-shadow: 3px 4px 4px #508e4c;
+        
 }
 .schoolText div {
     display: inline-block;
@@ -107,9 +108,9 @@ font-family: 'Old Standard TT', serif;
         width: 17em;
     }
     .schoolText div {
-        padding: 1.3em;
-        width: 92px;
-        border-radius: 30%;
+        padding: 0.3em;
+        width: 106px;
+        border-radius: 16%;
         font-family: 'Kaushan Script', cursive;
     }
     h2,h3,h4{
@@ -121,5 +122,12 @@ font-family: 'Old Standard TT', serif;
     }
     .schoolText{
         padding: 0;
+    }
+    .schoolText ul li h3 {
+        border: 1px #00aad4 solid;
+        padding: 0.4em;
+        border-radius: 0.2em;
+        box-shadow: 3px 4px 4px #508e4c;
+        margin-bottom: 1.9em;
     }
 }
