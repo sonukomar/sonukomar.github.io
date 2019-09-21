@@ -1,0 +1,92 @@
+.main-container{
+    overflow-x: hidden;
+    background: black;
+}
+
+.main-container div.row{
+    height:30em;
+    padding:6em;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(136, 125, 125, 0.59);
+}
+.introduction {
+    background: black;
+}
+.introImage img{
+    width: 81%;
+    border-radius: 2%;
+    margin-top: -3em;
+}
+.introText{
+    color:white;
+}
+
+.introText h2 {
+    font-size: 6rem;
+    font-family: 'Satisfy', cursive;
+    margin-top: 1em;
+}
+
+.introText h4 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.schoolImg img {
+    width:60%;
+}
+
+.skills img{
+    opacity: 0.4;
+}
+.schoolText {
+    color:whitesmoke;
+}
+.schoolText ul {
+    list-style: none;
+}
+.schoolText ul li h3 {
+        border: 1px #00aad4 solid;
+        padding: 0.4em;
+        border-radius: 0.2em;
+        box-shadow: 3px 4px 4px #508e4c;
+}
+.schoolText div {
+    display: inline-block;
+    border: 1px #00445e solid;
+    border-radius: 12%;
+    padding: 2em;
+}
+.job img{
+    opacity: 0.4;
+}
+.contact img {
+    width:10em;
+}
+
+.download {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 8em;
+    z-index: 99;
+}
+h3{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+    /* font-family: 'EB Garamond', serif; */
+/* font-family: 'Bree Serif', serif; */
+/*font-family: 'Satisfy', cursive;
+font-family: 'Kaushan Script', cursive;/*
+font-family: 'Old Standard TT', serif; 
+}
+h5{
+    font-family: 'Vollkorn SC', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Old Standard TT', serif;
+}

@@ -58,7 +58,7 @@ $(function(){
 
   
 
-    $('.download').click(function(e) {
+    $('.downloadLink').click(function(e) {
         e.preventDefault();  //stop the browser from following
         window.location.href = '../Resumenew.pdf';
     });
