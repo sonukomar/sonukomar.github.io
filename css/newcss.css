@@ -1,0 +1,198 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+.welcome {
+  width: 100vw;
+}
+.background {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-image: url("../img/bg1.png"); */
+  /* background-color: #3c3d71; */
+  background-image: linear-gradient(#3c3d71, #7c5c5c);
+  margin: 0;
+}
+.content {
+  /* border: 1px red solid; */
+}
+
+.social-icons {
+  width: 20%;
+  flex-grow: 1;
+  /* border: 1px green solid; */
+}
+.social-icons a img {
+  width: 2em;
+  margin: 1em;
+}
+.social-icons a img:hover {
+  cursor: pointer;
+}
+.heading {
+  flex-grow: 20;
+}
+.banner {
+  flex-grow: 1;
+  /* border: 1px yellow solid; */
+  width: 20%;
+}
+.banner .user {
+  width: 25.4em;
+  /* margin-left: 6em; */
+}
+.heading h2 {
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  align-content: center;
+  margin: 0;
+}
+.heading p {
+  color: white;
+  font-size: 1.3em;
+  text-align: center;
+  align-content: center;
+  /* margin: 1.2em 0 auto 33em; */
+}
+p.job {
+  font-size: 2em;
+}
+.imgs > * {
+  position: fixed;
+  width: 20vw;
+  bottom: 0;
+  z-index: 10;
+  translate: 0 100%;
+  transition: translate 250ms ease-in-out;
+  display: none;
+}
+
+.imgs > .show {
+  translate: 0 0;
+}
+
+[data-img-to-show] {
+  position: absolute !important;
+  top: 130%;
+  border: 2px red dotted;
+  width: 100px;
+  height: 100px;
+}
+
+#section1 {
+  /* background-color: red; */
+}
+#skill-section {
+  /* background-image: linear-gradient(#7c5c5c, white); */
+  height: 100vh;
+  /* display: flex; */
+}
+#skill-section h2 {
+  color: rgb(138 131 131);
+  font-size: 64px;
+  margin: 0;
+  margin-top: 0.1em;
+  margin-left: 0.2em;
+  font-family: system-ui;
+  text-decoration: underline;
+}
+#skill-section img {
+  width: 17em;
+  margin-left: 6.9em;
+  margin-top: 9.6em;
+}
+#html {
+  animation: fade ease-in-out 2s;
+}
+#react {
+  height: 4.5em;
+  width: 10em !important;
+  animation: fade ease-in-out 4s;
+}
+#docker {
+  animation: fade ease-in-out 6s;
+}
+#webpack {
+  height: 6em;
+  width: 6em !important;
+  animation: fade ease-in-out 8s;
+}
+#jenkins {
+  height: 6em;
+  width: 6em !important;
+  animation: fade ease-in-out 10s;
+}
+#redux {
+  width: 9em;
+  height: 6em;
+  animation: fade ease-in-out 12s;
+}
+#babel {
+  width: 9em;
+  height: 6em;
+  animation: fade ease-in-out 14s;
+}
+#section3 {
+  background-color: green;
+  height: 100vh;
+}
+#section4 {
+  background-color: blue;
+  height: 100vh;
+}
+.section {
+  position: relative;
+}
+#header {
+  position: fixed;
+  margin-top: 10vh;
+  margin-left: 25vw;
+  color: rgb(137, 125, 125);
+  text-align: center;
+  font-size: 142px;
+  text-transform: uppercase;
+  text-shadow: 7px 4px 5px #b2b2b2;
+  opacity: 1;
+  background-image: url("../img/he.jpeg");
+  background-position: center;
+  background-size: cover;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  size: 300px;
+
+  /* animation: fade ease-in-out 4s; */
+
+  /* letter-spacing: 6em; */
+  /* opacity: calc(0.4 * (max(var(--scroll), 0.1) / 10)); */
+  /* translate: 0 calc(-1% * (max(var(--scroll), 50)-50) * 100 / 75); */
+}
+.animateHeader {
+  opacity: 1;
+  animation: fade linear 2s;
+  text-shadow: -12px 10px 6px #808080;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  from {
+    letter-spacing: 50px;
+  }
+  to {
+    letter-spacing: 1px;
+  }
+}
+
+:root {
+  --scroll: 0;
+}
